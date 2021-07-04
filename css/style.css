@@ -1,4 +1,5 @@
 *{
+    font-family: 'Roboto';
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
@@ -23,10 +24,65 @@ header #navHeader{
     display: flex;
     margin-top: 40px;
     margin-left: 466px;
-    font-family: 'Roboto'; font-weight: normal; font-size: 16px; line-height: 19px; color: #F3F3F3;
+    font-weight: normal; font-size: 16px; line-height: 19px; color: #F3F3F3;
 }
 
 header #navHeader span{
     display: flex;
     margin-right: 13px;
+}
+
+section{
+    display: flex;
+    position: relative;
+    margin: 35px 19px 35px 19px;
+}
+
+.envioGratis{
+    display: flex;
+    margin: 0px 5px 0px 0px;
+}
+
+.envioGratis p{
+    position: absolute; top:20px; left: 19.98px;
+    width: 350.64px; height: 28px;
+    font-style: normal; font-weight: bold; font-size: 24px; line-height: 28px;
+    color: #FC200C;
+    z-index: 1;
+}
+
+.podioPizza{
+    display: flex;
+}
+
+.podioPizza h2{
+    position: absolute; left: 674px; top: 26px;
+    width: 171px;
+    height: 28px;
+    font-style: normal; font-weight: bold; font-size: 24px; line-height: 28px;
+    color: #FC200C;
+}
+.podioPizza h3{
+    position: absolute; left: 583px; top: 112px;
+    width: 110.44px;
+    height: 23px;
+    font-style: normal; font-weight: bold; font-size: 20px; line-height: 23px;
+    color: #222222;
+}
+.podioPizza ol{
+    position: absolute; left: 565px; top: 155px;
+    font-style: normal; font-weight: bold; font-size: 16px; line-height: 19px;
+    color: #222222;
+}
+.podioPizza ol li{
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.podioPizza #pizzaFalling{
+    position: absolute; left: 839px; top: 132px;
+    width: 92px;
+    height: 129px;
+    background: url(falling.png);
+    border-radius: 5px;
 }
